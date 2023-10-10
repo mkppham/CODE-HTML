@@ -1,0 +1,25 @@
+#navonea:link{
+    text-decoration: underline;
+    color: #005;
+    background: transparent;
+}
+#navonea:visited{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}
+#navonea:hover{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}
+#navonea:focus{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}
+#navonea:active{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}

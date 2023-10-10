@@ -1,0 +1,48 @@
+body {
+    font-size: 80%; /* Định dạng kích cỡ cho chữ*/
+    font-family: "Courier New", Courier, monospace; /*Đinh dạng loại font cho chữ*/
+    letter-spacing: 0.15em; /* định dạng khoảng cách ký tự*/
+    background-color: #efefef; /* Màu nền trang web*/
+}
+#page {
+    max-width: 940px; /* chiều rộng tối đa */
+    min-width: 720px; /* chiều rộng tối thiểu*/
+    margin: 10px auto 10px auto; /* Canh lề bên các hướng */
+    padding: 20px; /* Thêm khoảng trống cho các hướng */
+    border: 4px double #000; /* Thuộc tính chung*/
+    background-color: #ffffff; /* Màu nền trang web*/
+}
+#logo {
+    width: 150px; /*thiết lập chiều rộng*/
+    margin: 10px auto 25px auto; /* Canh lề bên các hướng */
+}
+ul {
+    width: 570px; /*thiết lập chiều rộng*/
+    padding: 15px; /* Thêm khoảng trống cho các hướng */
+    margin: 0px auto 0px auto; /* Canh lề bên các hướng */
+    border-top: 2px solid #000; /* Đường viền bên trên*/
+    border-bottom: 1px solid #000; /* Đường viền bên dưới*/
+    text-align: center;
+}
+li {
+    display: inline; /* Hiển thị*/
+    margin: 0px 3px; /* Canh lề bên các hướng */
+}
+p {
+    text-align: center; /* sắp sếp các thành phần*/
+    width: 600px; /*thiết lập chiều rộng*/
+    margin: 20px auto 20px auto; /* Canh lề bên các hướng */
+    font-weight: normal; /* Định dạng in đậm chữ*/
+}
+a {
+    color: #000000; /* Màu cho văn bản*/
+    text-transform: uppercase; /* điều khiển chữ in hoa */
+    text-decoration: none; /*Xác định các trang trí thêm vào văn bản*/
+    padding: 6px 18px 5px 18px; /* Thêm khoảng trống cho các hướng */
+}
+a:hover,
+a.on {
+    color: #cc3333; /* Màu cho văn bản*/
+    background-color: #ffffff; /* Màu nền trang web*/
+}
+</style>

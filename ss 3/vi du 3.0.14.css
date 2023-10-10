@@ -1,0 +1,8 @@
+/* Type Selector */
+OL 
+{
+    /*Applies lowercase roman numbering
+    to all the items in <OL> element.*/
+
+    list-style-type: lower-roman;
+}
