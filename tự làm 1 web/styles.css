@@ -1,0 +1,46 @@
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(53, 44, 44);
+    color: rgb(215, 235, 235);
+}
+
+body {
+    background-color: rgb(32, 30, 30);
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+}
+nav li {
+    float: right;
+    font-size: 16px;
+    line-height: 29px;
+    margin: 1px;
+    padding: 4px 9px 5px 30px;
+    display: inline;
+}
+
+#left {
+    width: 180px;
+    min-height: 432px;
+    border: 1px solid #CDCDCD;
+    float: left;
+    background-color: #f2f7f2;
+    margin-bottom: 5px;
+}
+
+#content {
+    width: 800px;
+    min-height: 400px;
+    border: 1px solid #BC8F8F;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #927676;
+}
+
