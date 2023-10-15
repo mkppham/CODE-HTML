@@ -60,7 +60,7 @@ main {
 
 .cta-button {
     display: inline-block;
-    background-color: #ff6b6b;
+    background-color: #9a06fd;
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -95,7 +95,7 @@ main {
     margin-top: 20px;
 }
 
-.image-grid img {
+.images-grid img {
     width: 100%;
     border-radius: 5px;
 }
