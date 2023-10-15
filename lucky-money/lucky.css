@@ -12,6 +12,7 @@ body{
     height: 100vh;
     overflow: hidden;
     background-size: cover;
+    background-color: #e91e63;
 }
 .mainbox{
     position: relative;
@@ -82,7 +83,7 @@ span{
 }
 .box1 .span4 b,
 .box2 .span4 b{
-    transform: translate(-50%, 50%) rotate(-85deg);
+    transform: translate(-50%, -50%) rotate(-85deg);
 }
 
 .box2{
