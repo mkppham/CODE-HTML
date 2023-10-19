@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chào theo thời gian</title>
+        <style>
+            .greeting {
+                font-size: 24px;
+            }
+
+            .morning {
+                color: green;
+            }
+
+            .afternoon {
+                color: blue;
+            }
+
+            .evening {
+                color: red;
+            }
+
+            .time {
+                font-size: 18px;
+                color: blueviolet;
+            }
+            </style>
+    </head>
+    <body>
+        <div id="greeting" class="greeting">Xin chào</div>
+        <p id="time">Thời gian đầy đủ: </p>
+
+        <script>
+            var greetingElement = document.getElementById('greeting');
+            var greeting = '';
+            var className = '';
+            var currentTime = new Date();
+            var currentHour = currentTime.getHours();
+
+            if (currentHour < 12) {
+                greeting = 'Chào buổi sáng';
+                className = 'morning';
+            } else if (currentHour < 18) {
+                greeting = 'Chào buổi chiều';
+                className = 'afternoon';
+            } else {
+                greeting = 'Chào buổi tối';
+                className = 'evening';
+            }
+            greetingElement.textContent = greeting;
+            greetingElement.className = className;
+
+            var elTime = document.getElementById('time');
+            elTime.textContent = `Time: ${currentTime}`;
+            elTime.className = 'time';
+            </script>
+    </body>
+</html>
