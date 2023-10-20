@@ -29,5 +29,36 @@ Giới thiệu một số hàm built-in
  * 2. Toán tử gán - Assignment
  * 3. Toán tử so sánh - Comparison
  * 4. Toán tử logical
- * 
  */
+
+/*
++ cộng 
+- trừ 
+* nhân
+** lũy thừa
+/ chia 
+% chia lấy số dư 
+++ tăng 1 giá trị số 
+-- giảm 1 giá trị số 
+tiền tố và hậu tố
+
+
+vd cho tiền tố 
+việc 1: + 1 cho a, a = a + 1 => a
+việc 2: trả về a sau khi được + 1
+
+
+vd cho hậu tố 
+việc 1: a copy 
+việc 2: + 1 của a, a = a + 1 => a
+việc 3: trả về biến a copy
+
+vd:
+var number = 6;
+
+var output = number++ + --number;
+
+= 6 + 6
+
+
+*/
