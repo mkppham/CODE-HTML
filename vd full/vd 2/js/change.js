@@ -8,6 +8,8 @@ function updateGreeting() {
 
     //const khai báo hằng số, giá trị không được cập nhật và PHẢI khởi tạo giá trị ban đầu
     const greetingElement = document.getElementById('greeting');
+    // document là tài liệu
+    // getElementById : 
     // const greetingElement;
     // const greetingElement1 = '';
     const timeElenment = document.getElementById('time');
