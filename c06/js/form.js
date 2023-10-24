@@ -16,7 +16,7 @@ function packageHint() {                                                // Khai 
 function checkTerms(event) {                                            // Khai báo hàm
     if (!elTerms.checked) {                                             // Nếu đánh dấu vào hộp kiểm tra
         elTermsHint.innerHTML = 'You must agree to the terms.';         // Hiển thị tin nhắn
-        // event.preventDefault();                                                                // Không gửi biểu mẫu
+        event.preventDefault();                                                                // Không gửi biểu mẫu
     }
 }
 // Tạo trình sử lý sự kiện: gửi lện gọi checkTerms(), thay đổi lệnh gọi packageHint()
