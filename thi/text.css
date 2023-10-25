@@ -1,0 +1,23 @@
+#wrapper{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#header{
+    background: rgb(69, 66, 64);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-content{
+    display: flex;
+}
+
+#content{
+    flex-basis: 65%;
+}
+
+#sidebar{
+    flex-basis: 25%;
+}
